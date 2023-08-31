@@ -1,2 +1,19 @@
+/* Apply Flexbox to the holder element */
+#holder {
+  display: flex;
+  flex-wrap: wrap; /* This property ensures items go to the next row if needed */
+  justify-content: space-between; /* Distributes items evenly along the row */
+  align-items: center; /* Centers items vertically */
+}
 
-/* Your CSS Code here. */
+/* Styling for the items */
+.item {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  background-color: lightblue;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px; /* Add spacing between items */
+}
